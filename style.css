@@ -1,0 +1,347 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 17px; 
+    color: #222; 
+}
+section { 
+    margin-top: 60px;
+}
+#header { 
+    background: #e8f2fc; 
+    border-bottom: 1px solid #ddd; 
+}
+#header .alinhamento { 
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 0; 
+}
+.logoImg {
+    height: 50px;
+    margin-right: 10px;
+    mix-blend-mode: multiply;
+    margin-left: 5px;
+}
+.logo b { 
+    color: #2547f5; 
+}
+.menu a { 
+    margin-left: 20px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222;
+}
+.menu a:hover { 
+    color: #2547f5; 
+}
+#header .btn{
+    display: inline-block; 
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    background: #2547f5;
+    color: #fff;
+    cursor: pointer; 
+}
+#header .btn:hover { 
+    background: #0c1a3d; 
+    border-color: #0c1a3d; 
+}
+.tituloEscrita .alinhamento {
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Titulo {
+    width: 60%;
+}
+.Titulo h1{
+    font-size: 50px; 
+    margin: 0 0 15px; 
+}
+.imagemComputador {
+    width: 65%;
+    border: 1px solid #242424;
+    border-radius: 10px;
+}
+.imagemComputador img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.subtituloEscrita { 
+    font-size: 20px; 
+}
+.Titulo .btn{
+    margin-top: 65px;
+    display: inline-block; 
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    background: #2547f5;
+    color: #fff;
+    cursor: pointer; 
+}
+.Titulo .btn:hover { 
+    background: #0c1a3d; 
+    border-color: #0c1a3d; 
+}
+#servicos .alinhamento{
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+}
+#servicos .alinhamento h2{
+    font-size: 35px; 
+    margin: 0 0 15px; 
+}
+.explicacaoProdutos { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-top: 30px; 
+}
+.card1, .card2, .card3, .card4 {
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+.card1 { 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 20px; 
+    width: 49%; 
+    background: #2547f5; 
+    color: #fff; 
+}
+.card1 a{
+    color: #fff;
+}
+.card1 h3{
+    font-size: 25px; 
+    margin: 0 0 10px; 
+}
+.card1 .link { 
+    font-weight: bold; 
+}
+.card2 { 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 20px; 
+    width: 49%; 
+    background: #9cacff; 
+}
+.card2 a{
+    color: #222;
+}
+.card2 h3{
+    font-size: 25px; 
+    margin: 0 0 10px; 
+}
+.card2 .link { 
+    font-weight: bold; 
+}
+.card3 { 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 20px; 
+    width: 49%; 
+    background: #0c1a3d; 
+    color: #fff; 
+}
+.card3 a{
+    color: #fff;
+}
+.card3 h3{
+    font-size: 25px; 
+    margin: 0 0 10px; 
+}
+.card3 .link { 
+    font-weight: bold; 
+}
+.card4 { 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 20px; 
+    width: 49%; 
+    background: #eef2fb; 
+}
+.card4 a{
+    color: #222;
+}
+.card4 h3{
+    font-size: 25px; 
+    margin: 0 0 10px; 
+}
+.card4 .link { 
+    font-weight: bold; 
+}
+#clientes .alinhamento{
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+}
+#clientes .alinhamento h2{
+    font-size: 35px; 
+    margin: 0 0 15px; 
+}
+.faixa { 
+    background: #eef2fb; 
+    padding: 20px 0 20px;
+}
+.opcoesClientes { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 30px; 
+}
+.opcoesClientes .b2b { 
+    padding: 30px 60px 30px 60px; 
+    margin-bottom: 20px; 
+    border-radius: 20px; 
+    background: #0c1a3d; 
+    width: 49%;
+    color: #fff; 
+}
+.opcoesClientes h3{
+    font-size: 25px; 
+    margin: 0 0 10px; 
+}
+.opcoesClientes .b2c { 
+    padding: 30px; 
+    margin-bottom: 20px; 
+    border-radius: 20px; 
+    background: #fff; 
+    width: 49%;
+    color: #222; 
+}
+.opcoesClientes ul { 
+    margin: 0; 
+    padding-left: 20px; 
+}
+/* PRÊMIOS */
+#premios .alinhamento {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#premios h2 {
+    font-size: 35px;
+    margin: 0 0 15px;
+}
+.textoPremios {
+    font-size: 20px;
+}
+.listaPremios {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.premio {
+    width: 32%;
+    padding: 30px;
+    border-radius: 20px;
+    border-top: 5px solid #2547f5;
+    background: #eef2fb;
+    align-items: center;
+}
+.premio h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+.anoPremio {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2547f5;
+}
+.premio img{
+    width: 90%;
+}
+.contato { 
+    padding: 40px 0 40px;
+    background: #0c1a3d; 
+    color: #fff; 
+}
+.contato .alinhamento { 
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+}
+.textoContato { 
+    width: 45%; 
+}
+.textoContato h2{
+    font-size: 35px; 
+    margin: 0 0 15px; 
+}
+.contato form { 
+    width: 50%; 
+}
+label { 
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+}
+input, select, textarea { 
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 15px; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 16px; 
+}
+textarea { 
+    height: 100px; 
+}
+.contato .btn {
+    display: inline-block; 
+    padding: 12px 25px; 
+    border-radius: 30px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    background: #9cacff; 
+    color: #0c1a3d; 
+}
+.rodape { 
+    padding: 40px 0; 
+    background: #071231; 
+    color: #ccc; 
+}
+.rodape .alinhamento { 
+    width: 90%; 
+    max-width: 1100px; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+.rodape h3 { 
+    color: #fff; 
+}
+.direitos { 
+    width: 100%; 
+    margin-top: 20px; 
+    padding-top: 20px; 
+    text-align: center; 
+    border-top: 1px solid #333; 
+}
